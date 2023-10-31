@@ -7,6 +7,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { AspirantesComponent } from './aspirantes/aspirantes.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing.module';
+import { EgresadosComponent } from './egresados/egresados.component';
+import { AdministrativoComponent } from './administrativo/administrativo.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { AppRoutingModule } from './app.routing.module';
     HeaderComponent,
     SideNavComponent,
     AspirantesComponent,
+    EgresadosComponent,
+    AdministrativoComponent
   ],
   imports: [
     BrowserModule,

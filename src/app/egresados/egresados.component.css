@@ -1,0 +1,68 @@
+/* estilos-egresados.component.css (Crea un archivo de estilos para tu componente de egresados) */
+
+/* Centro el contenido y alineo imágenes con el texto */
+.text-center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Limita el ancho de las imágenes para que se ajusten al espacio */
+.centered-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Ajusta el tamaño de los encabezados y el espaciado entre elementos */
+h2.titulo-centrado {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Resto de estilos para tu contenido, ajusta según necesites */
+.text-center-content {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.image-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-aligned-image {
+    float: right;
+    width: 450px;
+    height: 300px;
+}
+
+.full-width-hr {
+    border: 0;
+    height: 1px;
+    background: #000; /* Color de la línea */
+    margin: 15px 0; /* Espacio entre las secciones y la línea */
+}
+
+.text-parrafo {
+    font-size: 13px;
+}
+
+.card-text {
+    font-size: 13px;
+}

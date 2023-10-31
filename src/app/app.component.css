@@ -13,6 +13,10 @@ main {
     z-index: 1;
 }
 
+.side {
+    background-color: #004673;
+}
+
 app-side-nav {
     position: fixed; /*Aqui de absolute lo cambie a fixed*/
     left: 0rem;

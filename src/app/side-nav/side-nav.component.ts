@@ -44,7 +44,7 @@ export class SideNavComponent implements OnInit {
     },
     {
       number: '7',
-      name: '¿Quieres Trabajar En UTL?',
+      name: '¿Quieres Trabajar en UTL?',
       icon: 'fa-solid fa-briefcase',
     },
     {
